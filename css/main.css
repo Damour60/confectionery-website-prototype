@@ -34,6 +34,9 @@ header {
 
 .icon {
   height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 header img {
@@ -44,6 +47,8 @@ h1 {
   font-family: Bevan, serif;
   margin: 0;
   padding: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav ul {
@@ -69,19 +74,37 @@ nav a {
   text-decoration: none;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
   margin: 0;
 }
 
-figure {
-  margin-bottom: 1.3;
-}
-
 main {
   background-color: #512200;
   color: #fff;
+}
+
+.banner-cap {
+  padding-bottom: .5em;
+}
+
+p,
+.banner-cap {
+  margin-bottom: 1.3rem;
+  border-bottom: 2px solid #b20953;
+}
+
+h1,
+p,
+h2,
+.banner-cap {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+p {
+  padding: .5em;
 }
 
 .btn {
@@ -149,8 +172,12 @@ main {
 
 @media only screen and (min-width: 25em) {
 
+  nav ul {
+    margin: 0 8em 0 4em;
+  }
+
   p {
-    margin: 0 0 1.3rem;
+    margin-bottom: 1.3rem;
   }
 
   .icon {

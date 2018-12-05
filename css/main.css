@@ -182,6 +182,7 @@ p {
 
   .icon {
     height: 70px;
+    width: 70px;
   }
 
   .btn {
@@ -197,6 +198,29 @@ p {
     line-height: 1.4;
   }
 
+  nav ul {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .banner-cap {
+    padding: .3rem 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(255, 25, 25, .6);
+  }
+
+  .banner {
+    position: relative;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -206,12 +230,31 @@ p {
     line-height: 1.5;
   }
 
+  .icon {
+    height: 150px;
+    width: 150px;
+  }
+
+  nav ul {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  nav ul {
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+
+  .icon {
+    height: 200px;
+    width: 200px;
   }
 
 }

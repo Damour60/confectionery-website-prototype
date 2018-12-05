@@ -142,7 +142,7 @@ p {
 
 .social img {
   display: flex;
-  width: 100%
+  width: 100%;
 }
 
 .social {
@@ -150,12 +150,11 @@ p {
   padding: 0 .5rem;
   display: flex;
   margin-top: 1em;
-  }
+}
 
 .social > li {
   margin: 1em .5em 0;
   width: 2em;
-
 }
 
 .copyright {

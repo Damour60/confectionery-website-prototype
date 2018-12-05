@@ -18,24 +18,79 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #b20953;
+  border-top: 3px solid #f33;
+  border-bottom: 3px solid #f33;
+  padding-top: .6em;
+  margin: 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0 2em 0 2em;
+}
+
+nav li {
+
+  display: inline-block;
+  padding: .5em .75em;
+  margin: .3em 0;
+  background-color: #713837;
+  border-radius: 4px;
+  list-style-type: inherit;
+}
+
+nav li:hover {
+  background-color: #f33;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
 .footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   padding: 1.5rem 0;
-}
 
-.social {
-  display: block;
-  width: 100%;
+  background-color: #b20953;
+  border-top: 3px solid #f33;
+  color: #f33;
 }
 
 .social img {
+  display: flex;
+  width: 100%
+}
+
+.social {
   margin-left: auto;
   padding: 0 1rem;
   display: flex;
-}
+  }
 
 .social > li {
   margin: 0 .5em;
